@@ -21,8 +21,7 @@ class Plant:
 
 class Fruit(Plant):
     def __init__(self, name, edible = True):
-        super().__init__(self, name)
-        self.name = name
+        super().__init__(name)
         self.edible = edible
 
 class Flower(Plant):
